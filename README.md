@@ -1,2 +1,2 @@
 # flutter_svg_clickable
-Interacting with svg image in flutter
+Interacting with human body parts svg image in flutter
