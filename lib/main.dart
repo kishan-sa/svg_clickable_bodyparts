@@ -27,12 +27,12 @@ class HumanBody extends StatefulWidget {
   _HumanBodyState createState() => _HumanBodyState();
 }
 
-const double SvgWidth = 517.477; //1369; //612.54211;
-const double SvgHeight = 1101.894; //1141; //723.61865;
+const double SvgWidth = 645; //1369; //612.54211;
+const double SvgHeight = 1226; //1141; //723.61865;
 
 class _HumanBodyState extends State<HumanBody> {
   Path _selectPath;
-  final svgPath = "assets/body.svg";
+  final svgPath = "assets/mfnew.svg";
   List<Path> paths = [];
   List<PathSegment> pathsegments = [];
 

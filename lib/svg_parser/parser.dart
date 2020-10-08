@@ -63,14 +63,14 @@ class SvgParser {
         Color color;
         double strokeWidth;
 //-------------------------
-        var id = attributes.firstWhere((attr) => attr.name.local == "data-name",
+        // var id = attributes.firstWhere((attr) => attr.name.local == "data-name",
+        //     orElse: () => null);
+            var id = attributes.firstWhere((attr) => attr.name.local == "id",
             orElse: () => null);
-            // var id = attributes.firstWhere((attr) => attr.name.local == "id",
-            // orElse: () => null);
         String pathname;
         if (id != null) {
-          var newstr = id.toString().substring(11);
-          // var newstr = id.toString().substring(4);
+          // var newstr = id.toString().substring(11);
+          var newstr = id.toString().substring(4);
           // print(id.toString().substring(11));
           pathname = newstr.substring(0, newstr.length - 1);
           print(pathname);
